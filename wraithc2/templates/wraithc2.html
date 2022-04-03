@@ -1,0 +1,34 @@
+{% extends "template.html" %}
+{% block body %}
+  <head>
+    <title>Project Wraith Command Center</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+  </head>
+  <body class="login-page-body">
+    <div class="wraithconsole">
+      <img src="{{ url_for('static',filename='images/wraithicon.png') }}" class="wraithicon" />
+        <h1 class="login-form-header">Wraith Console</h1>
+      <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        {{ form.command.label(class="login-labels") }}
+        {{ form.command(class="login-entry") }}
+        {{ form.agent.label(class="login-labels") }}
+        {{ form.agent(class="login-entry") }}
+        {{ form.parameters.label(class="login-labels") }}
+        {{ form.parameters(class="login-entry") }}
+        {{ form.sendTask(class="login-submit")}}
+      </form>
+      <form action="status">
+        <input type="submit" value="View task history" class="login-submit" />
+      </form>
+      {% for i in range(0, 5)%}
+        {% if recentTasks %}
+          <li>{{ recentTasks[i] }}</li>
+        {% endif %}  
+      {% endfor %}
+        <h3 class="login-form-footer">Dev Cole Strickler</h3>
+    </div>
+
+
+  </body>
+  {% endblock %}

@@ -1,0 +1,106 @@
+.flashes {
+  margin: 5;
+  text-align: center;
+  left: 30%;
+  background-color: black;
+  color: red;
+  font-family: sans-serif;
+}
+
+
+.login-page-body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.loginbox {
+  width: 320px;
+  height: 380px;
+  background-color: gray;
+  top: 40%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 60px 30px;
+}
+
+.wraithicon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  left: calc(50% - 50px);
+  background-color: gray;
+}
+
+.login-form-header {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 26px;
+}
+
+.login-labels {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.loginbox input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-entry{
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background: transparent;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+}
+
+.login-submit {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: black;
+  font-size: 18px;
+  color: white;
+  border-radius: 20px;
+}
+.login-submit:hover {
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+
+.login-form-footer {
+  margin: 0;
+  padding: 0 0 0px;
+  text-align: center;
+  font-size: 8px;
+}
+
+.wraithconsole {
+  width: 320px;
+  height: 600px;
+  background-color: gray;
+  top: 40%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 60px 30px;
+}
+.wraithconsole input{
+  width: 100%;
+  margin-bottom: 20px;
+}

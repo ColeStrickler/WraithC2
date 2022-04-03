@@ -1,0 +1,24 @@
+{% extends "template.html" %}
+{% block body %}
+  <head>
+    <title>Project Wraith Command Center</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+  </head>
+  <body class="login-page-body">
+    <div class="loginbox">
+      <img src="{{ url_for('static',filename='images/wraithicon.png') }}" class="wraithicon" />
+        <h1 class="login-form-header">Wraith C2 Console</h1>
+      <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        {{ form.username.label(class="login-labels") }}
+        {{ form.username(class="login-entry") }}
+        {{ form.password.label(class="login-labels") }}
+        {{ form.password(class="login-entry") }}
+        {{ form.submit(class="login-submit") }}
+      </form>
+        <h3 class="login-form-footer">Dev Cole Strickler</h3>
+    </div>
+
+
+  </body>
+{% endblock %}
