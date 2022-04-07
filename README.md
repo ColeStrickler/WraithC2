@@ -1,4 +1,6 @@
-# WraithC2 - A Basic C2 framework written in Python
+# WraithC2 
+
+## A Basic C2 framework written in Python
 
 # So what is a C2?
 C2 stands for "command & control" and a C2 framework is used by hackers to control their malware from a central web-facing server.
