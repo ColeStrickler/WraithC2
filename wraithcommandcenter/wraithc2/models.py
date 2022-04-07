@@ -32,3 +32,7 @@ class Tasks(db.Model):
     def __repr__(self): # defines how object is printed out
         return f"[Agent:{self.agent}   Time:{self.time}   Command:{self.command}   Feedback:{self.feedback}   User:{self.author}   Status:{self.result}]"
 
+
+class Keys(db.Model):
+    __tablename__ = 'keys'
+    keys = db.Column(db.String(), nullable=False, primary_key=True)

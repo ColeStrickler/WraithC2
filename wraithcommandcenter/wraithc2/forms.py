@@ -21,7 +21,7 @@ class RegisterForm(FlaskForm):
 class TaskForm(FlaskForm):
     command = StringField('Command', validators=[DataRequired()])
     agent = StringField('Agent #', validators=[DataRequired()])
-    parameters = StringField('Command parameters', validators=[DataRequired()])
+    parameters = StringField('Command parameters') # , validators=[DataRequired()] was here
     sendTask = SubmitField('Send Task', validators=[DataRequired()])
 
 class StatusForm(FlaskForm):
