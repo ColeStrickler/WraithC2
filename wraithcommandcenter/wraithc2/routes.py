@@ -118,7 +118,7 @@ def status():
 
 
 @app.route("/register", methods=['GET', 'POST'])
-#@login_required
+@login_required
 def register():
     form = RegisterForm()
     if form.validate_on_submit():
