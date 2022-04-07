@@ -31,6 +31,16 @@ Access CasperAgent's special features with these commands
 - screenshot [webcam] ==> take screenshot/webcam picture
 - speed [#] ==> change average request time in seconds
 
+# Web Server Endpoints
+- /api ==> REST API for giving tasks and receiving results
+- /keys ==> REST API endpoint for receiving keylogger feedback
+- /register ==> register new users
+- /uploads ==> view uploads from agents
+- /wraithc2 ==> C2 console
+- /status ==> view task history
+- /keylogger ==> view keylogger results
+- / ==> login page
+
 # Console View
 ![console](https://user-images.githubusercontent.com/82488869/162107449-4e6466f6-c4c1-4ca4-ad2d-2c6e38af12d7.png)
 
