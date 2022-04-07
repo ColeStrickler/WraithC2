@@ -12,6 +12,8 @@ to the webserver's REST API to get tasks, execute them, and return results and d
 The webserver is set up using the Flask framework. The database is currently sqlite, but could easily be changed to any other SQL variety. The agent is written in python,
 but could easily be compiled with pyinstaller for more stealth and better utility.
 
+I do an in depth demo of the core features on my youtube channel here: https://www.youtube.com/watch?v=Y2oyN4HqrlU
+
 # CasperAgent Features
 
 - command line access
@@ -29,5 +31,6 @@ Access CasperAgent's special features with these commands
 - screenshot [webcam] ==> take screenshot/webcam picture
 - speed [#] ==> change average request time in seconds
 
-
+# Console View
+![console](https://user-images.githubusercontent.com/82488869/162107449-4e6466f6-c4c1-4ca4-ad2d-2c6e38af12d7.png)
 
