@@ -18,5 +18,16 @@ but could easily be compiled with pyinstaller for more stealth and better utilit
 - screenshots
 - webcam spying
 - keylogger
-- 
+- change request speed
+- persistence
+
+# Agent special commands
+Access CasperAgent's special features with these commands
+*[command] indicates to put text in parameter entry in console
+
+- keylogger [stop] ==> start/stop keylogger
+- screenshot [webcam] ==> take screenshot/webcam picture
+- speed [#] ==> change average request time in seconds
+
+
 
