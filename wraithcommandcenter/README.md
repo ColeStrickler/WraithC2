@@ -1,2 +1,2 @@
 # WraithC2
-WebGUI C2 server and Windows/Linux Agents written in C++
+WebGUI C2 server
